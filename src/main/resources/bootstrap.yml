@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: technical-service
+  cloud:
+    config:
+      uri: http://localhost:8081
+      username: root
+      password: s3cr3t
+  boot:
+    admin:
+      client:
+        url: http://localhost:8086
+
+#server:
+#  port: 8081
+#
+#spring:
+#  datasource:
+#    driverClassName: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/technical-servicedb
+#    username: root
+#    password: 2001
+#
+#  jpa:
+#    database: MYSQL
+#    show-sql: true
+#    hibernate:
+#      ddl-auto: update
+#      naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.MySQL5Dialect
